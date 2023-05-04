@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Uchen&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.Main
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    border: 2px solid black;
+    width:100vw;
+    height:100vh;
+   
+}
+.box_1
+{
+    margin-top:20px;
+    padding:20px;
+  width:700px;
+    border:1px solid gray;
+    border-radius:10px;
+    box-shadow:1px 1px 10px 1px  gray;
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    gap:30px;
+    flex-direction:column;
+}
+.name,.Address,.contact-info
+{
+    
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:20px;
+
+}
+.emailcontainer
+{
+    width:50%;
+}
+.phoneno
+{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    width:50%;
+
+}
+.startnumber
+{
+    width:25%;
+}
+
+.main_form
+{
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    flex-wrap:nowrap;
+    gap:15px;
+    flex-direction:column;
+}
+.box_2
+{
+    width:350px;
+    padding:30px;
+    margin-top:20px;
+    border:1px solid gray;
+    border-radius:10px;
+    box-shadow:1px 1px 10px 1px  gray;
+    display:flex;
+   
+    flex-direction:column;
+}
+.description
+{
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+    justify-content:left;
+    align-items:left;
+}
+.item1
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:gray;
+}
+.sum{
+    color:black;
+    font-size:23.525px;
+    text-align:left;
+    font-weight:400;
+
+}
+.purchasebtn
+{
+    border-radius:5px;
+    color:white;
+    background:#23cf23;
+    border:1px solid #23cf23;
+    height:40px;
+    transition:transform 1s  ease-in-out;
+    margin-top:20px;
+}
+.purchasebtn:hover{
+    transform:scale(1.09);
+
+}
+
+
+@media screen and (max-width:480px) {
+    .box_1
+    {
+        width:85vw;
+    }
+    .startnumber
+    {
+        width:60%;
+    }
+    .box_2{
+        width:85vw;
+    }
+    
+}
